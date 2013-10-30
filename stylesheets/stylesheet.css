@@ -4,6 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -416,4 +417,54 @@ Small Device Styles
     font-size: 11px;
   }
 
+
+
+}
+
+
+
+p { 
+  color: gray;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight:700;
+  text-align: center;
+  text-shadow:0 1px 1px #fff;
+  padding-top:20px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+h3 {
+  color: black;
+  line-height: 10px;
+  font-weight:700;
+  text-align: center;
+  text-shadow:0 1px 1px #fff;
+  padding-top:20px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+h1 {
+  color: black;
+  background-color : #126bbe ;
+  line-height: 30px;
+  font-weight:700;
+  text-align: center;
+  text-shadow:0 1px 1px #fff;
+  padding-top:5px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.line {
+        border-top: 1px solid #111;
+        width : 100px;
+        display: block;
+        left : 50%;
+        margin-left : -50px;
+        margin-top: 30px;
+        padding-top: 0px;
+        position: relative;    
 }
